@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Eventify",
+    "slug": "eventify",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Eventify-icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/Eventify-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f8f8ec"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eventify.app",
+      "icon": "./assets/Eventify-icon.png"
+    },
+    "android": {
+      "package": "com.eventify.app",
+      "icon": "./assets/Eventify-icon.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Eventify-icon.png",
+        "backgroundColor": "#f8f8ec"
+      },
+      "permissions": [
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/Eventify-icon.png"
+    }
+  }
+}
